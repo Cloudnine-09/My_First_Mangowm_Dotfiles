@@ -1,0 +1,6 @@
+[config]
+
+[templates.swaync]
+input_path = "/home/aditya/.config/matugen/templates/colors.css"
+output_path = "/home/aditya/.config/swaync/colors.css"
+post_hook = "swaync-client -rs"
