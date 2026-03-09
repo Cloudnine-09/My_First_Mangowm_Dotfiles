@@ -50,3 +50,7 @@ post_hook = "pkill -USR2 btop || true"
 input_path = "~/.config/matugen/templates/ghostty-colors.conf"
 output_path = "~/.config/ghostty/themes/matugen"
 post_hook = "pkill -SIGUSR2 ghostty"
+
+[templates.starship]
+input_path = "~/.config/matugen/templates/starship-colors.conf"
+output_path = "~/.config/starship.toml"
