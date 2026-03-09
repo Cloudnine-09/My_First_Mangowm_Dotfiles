@@ -1,0 +1,52 @@
+#
+#
+#
+#     /$$    /$$ /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$   /$$$$$$
+#    |  $$  /$$//$$__  $$ /$$_____/ /$$__  $$ /$$__  $$ /$$__  $$
+#     \  $$/$$/| $$$$$$$$|  $$$$$$ | $$  \ $$| $$$$$$$$| $$  \__/
+#      \  $$$/ | $$_____/ \____  $$| $$  | $$| $$_____/| $$
+#       \  $/  |  $$$$$$$ /$$$$$$$/| $$$$$$$/|  $$$$$$$| $$
+#        \_/    \_______/|_______/ | $$____/  \_______/|__/
+#                                  | $$
+#                                  | $$
+#                                  |__/
+# Matugen Config
+#
+# by yosmisyael (2024)
+
+[config.wallpaper]
+command = "swww"
+arguments = [
+  "img",
+  "--transition-type",
+  "center",
+  "--transition-step",
+  "15",
+  "transition-fps",
+  "60"
+]
+set = true
+
+[templates.waybar]
+input_path = "~/.config/matugen/templates/waybar-colors.css"
+output_path = "~/.config/waybar/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.rofi]
+input_path = "~/.config/matugen/templates/rofi-colors.rasi"
+output_path = "~/.config/rofi/colors.rasi"
+
+[templates.cava]
+input_path = "~/.config/matugen/templates/cava-colors.ini"
+output_path = "~/.config/cava/themes/vesper"
+post_hook = "pkill -USR1 cava"
+
+[templates.btop]
+input_path = "~/.config/matugen/templates/btop.theme"
+output_path = "~/.config/btop/themes/matugen.theme"
+post_hook = "pkill -USR2 btop || true"
+
+[templates.ghostty]
+input_path = "~/.config/matugen/templates/ghostty-colors.conf"
+output_path = "~/.config/ghostty/themes/matugen"
+post_hook = "pkill -SIGUSR2 ghostty"
