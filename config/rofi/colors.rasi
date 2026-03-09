@@ -1,0 +1,64 @@
+/*
+ *                                                                 
+ *                                                                 
+ *    $$\    $$\  $$$$$$\   $$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
+ *    \$$\  $$  |$$  __$$\ $$  _____|$$  __$$\ $$  __$$\ $$  __$$\ 
+ *     \$$\$$  / $$$$$$$$ |\$$$$$$\  $$ /  $$ |$$$$$$$$ |$$ |  \__|
+ *      \$$$  /  $$   ____| \____$$\ $$ |  $$ |$$   ____|$$ |      
+ *       \$  /   \$$$$$$$\ $$$$$$$  |$$$$$$$  |\$$$$$$$\ $$ |      
+ *        \_/     \_______|\_______/ $$  ____/  \_______|\__|      
+ *                                   $$ |                          
+ *                                   $$ |                          
+ *                                   \__|     
+ *
+ * Rofi Theming
+ * by yosmisyael (2024)
+ */
+
+* {
+    primary: #b5c8e5;
+    primary-fixed: #d3e4ff;
+    primary-fixed-dim: #b5c8e5;
+    on-primary: #1f3148;
+    on-primary-fixed: #081c32;
+    on-primary-fixed-variant: #364860;
+    primary-container: #1f3148;
+    on-primary-container: #adbfdc;
+    secondary: #c1c7d3;
+    secondary-fixed: #dde3f0;
+    secondary-fixed-dim: #c1c7d3;
+    on-secondary: #2a313b;
+    on-secondary-fixed: #151c25;
+    on-secondary-fixed-variant: #414752;
+    secondary-container: #414752;
+    on-secondary-container: #dae0ed;
+    tertiary: #e1c291;
+    tertiary-fixed: #ffdeab;
+    tertiary-fixed-dim: #e1c291;
+    on-tertiary: #402d09;
+    on-tertiary-fixed: #281900;
+    on-tertiary-fixed-variant: #59431e;
+    tertiary-container: #402d09;
+    on-tertiary-container: #d9ba8a;
+    error: #ffb4ab;
+    on-error: #690005;
+    error-container: #93000a;
+    on-error-container: #ffdad6;
+    surface: #131315;
+    on-surface: #e4e2e4;
+    on-surface-variant: #c4c6cd;
+    outline: #8e9197;
+    outline-variant: #44474d;
+    shadow: #000000;
+    scrim: #000000;
+    inverse-surface: #e4e2e4;
+    inverse-on-surface: #303032;
+    inverse-primary: #4e5f79;
+    surface-dim: #131315;
+    surface-bright: #39393b;
+    surface-container-lowest: #0d0e10;
+    surface-container-low: #1b1b1d;
+    surface-container: #1f2021;
+    surface-container-high: #292a2c;
+    surface-container-highest: #343537;
+}
